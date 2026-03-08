@@ -16,7 +16,7 @@ export interface CustomFilterProps {
 
 export interface SearchManuFacturerProps {
   manufacturer: string; 
-  setManuFacturer: string; 
+  setManuFacturer: (manufacturer: string) => void; 
 }
 
 export interface CustomFilterProps {
