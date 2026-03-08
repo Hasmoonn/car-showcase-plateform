@@ -38,6 +38,9 @@ export interface CarProps {
   year:number;
 }
 
+export interface HomeProps {
+  searchParams: FilterProps;
+}
 
 export interface FilterProps {
   manufacturer?: string;
